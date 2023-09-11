@@ -10,3 +10,8 @@ export interface Role{
     id?:string;
     roleName?:string;
 }
+
+export interface LoginRequest{
+    username?:string;
+    password?:string;
+}
