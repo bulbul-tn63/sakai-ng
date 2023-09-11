@@ -70,7 +70,7 @@ export class LocalstorageService {
 
   //logout user
   logout() {
-    localStorage.removeItem("user");
+    localStorage.removeItem("username");
     localStorage.removeItem("token");
     if (this.clearTimeout) {
       clearTimeout(this.clearTimeout);
